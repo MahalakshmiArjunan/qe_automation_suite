@@ -1,0 +1,15 @@
+{
+    "name": "test_framework",
+    "dependencies": {
+        "testcafe": "1.14.0",
+        "typescript": "4.2.4"
+    },
+    "scripts": {
+        "Test:chrome": "testcafe chrome ./tests/testLogin.ts"
+    },
+    "version": "0.0.1",
+    "devDependencies": {
+        "cypress": "^7.2.0",
+        "cypress-mailosaur": "^2.2.1"
+    }
+}
